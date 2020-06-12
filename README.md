@@ -116,6 +116,9 @@ Finally use it to point a web browser to it, like for example:
 
 <a href="http://34.75.248.3">http://34.75.248.3</a>
 
+
+*For more in-deepth info, check the official guide <a href="https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app">here</a>
+
 ## Stress tests
 
 Stress tests are included within the project under tests/locus. They use <a href="https://locust.io/">Locus</a> for  simulating simultaneus user's interactions.
