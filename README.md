@@ -132,7 +132,8 @@ In order to initialize the server, run:
 
 ``locust -f stress_test.py``
 
-Once it's up, point to  ``localhost:8089`` using any web browser. Enter the number of users, the hatch rate and the host (in our case: http://34.75.248.3). CLick on "Start swarming" and observe the results.
+Once it's up, point to  ``localhost:8089`` using any web browser. Enter the number of users, the hatch rate and the host (in our case: http://34.75.248.3). 
+Click on "Start swarming" and observe the results.
 
 
 
