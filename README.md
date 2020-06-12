@@ -65,6 +65,7 @@ The following steps are for local deployment. They assume <a href="https://www.d
 4. Copy the project's id. We will use this information later
 5. Install the <a href="https://cloud.google.com/sdk/docs/quickstarts">Google Cloud SDK</a> which includes the ``gcloud`` command-line tool.
 6. Install kubectl: 
+
 ``gcloud components install kubectl``
 
 ### Build the image
@@ -98,6 +99,27 @@ for example:
 ``gcloud config set compute/zone us-east1``
 
 ``gcloud container clusters create hello-cluster --num-nodes=2``
+
+### Deploy
+
+``kubectl create deployment hello-web --image=gcr.io/${PROJECT_ID}/helloworld-app:v1``
+
+Expose the app to internet:
+
+``kubectl expose deployment hello-web --type=LoadBalancer --port 80 --target-port 8080``
+
+Get the external IP address by running:
+
+``kubectl get service``
+
+Finally use it to point a web browser to it, like for example:
+
+<a href="http://34.75.248.3">http://34.75.248.3</a>
+
+
+
+
+
 
 
 
