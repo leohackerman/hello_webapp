@@ -117,7 +117,7 @@ Finally use it to point a web browser to it, like for example:
 <a href="http://34.75.248.3">http://34.75.248.3</a>
 
 
-*For more in-deepth info, check the official guide <a href="https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app">here</a>
+*For more in depth info, check the official guide <a href="https://cloud.google.com/kubernetes-engine/docs/tutorials/hello-app">here</a>
 
 ## Stress tests
 
