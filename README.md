@@ -123,7 +123,7 @@ Stress tests are included within the project under tests/locus. They use <a href
 ### Running the tests
 
 Assuming  <a href="https://locust.io/">Locus</a> is installed and added to the RUN PATH, cd into /tests/locus. 
-There will be a file called ``stress_test.py``. This file contains the stress tests, one corresponding to the request of the html rendering request and the other corresponds to the json message.
+There will be a file called ``stress_test.py``. This file contains the stress tests, one corresponding to the request of the html rendering and the other one corresponds to the json message.
 
 In order to initialize the server, run:
 
