@@ -1,0 +1,69 @@
+{
+  "info": {
+    "description": "",
+    "version": "1.0.0",
+    "title": "IBM - Hello World",
+    "contact": {
+      "email": "ortiz.morales.leonardo@gmail.com"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "swagger": "2.0",
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Hello World API",
+      "description": "Example API for requesting a greeting message"
+    }
+  ],
+  "paths": {
+    "/api/v1/hello": {
+      "get": {
+        "tags": [
+          "Greetings Request"
+        ],
+        "summary": "Returns a Hello World JSON message",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/components/schemas/greetingRequest"
+            }
+          }
+        }
+      },
+
+    }
+  },
+  "components": {
+    "schemas": {
+      "id": {
+        "properties": {
+          "uuid": {
+            "type": "string"
+          }
+        }
+      },
+      "greetingRequest": {
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "string",
+            "format": "string"
+          },
+          "message": {
+            "type": "string",
+            "format": "string"
+          }
+        }
+      }
+    }
+  }
+}
