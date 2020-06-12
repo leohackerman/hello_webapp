@@ -2,12 +2,12 @@
 
  This is a base repository for a Hello World app written in Python
  
- ##Architecture considerations
+ ## Architecture considerations
  
  Hello Webapp uses <a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a> as web framework for processing the user requests and <a href="https://swagger.io">Swagger</a> for documentation. 
  
  
- ##Usage
+ ## Usage
  Assuming the app is running locally on port 8080, calling the base path
  
  ``localhost:8080``
@@ -31,13 +31,13 @@ Finally you can check the API documentation going to:
 
 ``http://localhost:8080/swagger/``
 
-##Grab the code
+## Grab the code
 
 ``git clone git@github.com:leohackerman/hello_webapp.git``
 
 
 
-##Local Deployment
+## Local Deployment
 
 The following steps are for local deployment. They assume <a href="https://www.docker.com/products/docker-desktop">Docker-Desktop</a> is properly installed in the host machine.
 
